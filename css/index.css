@@ -34,15 +34,19 @@
 /* Setting the font of the name to Inter. */
 .name {
     font-family: 'Inter', sans-serif;
+    color:aliceblue;
 }
 
 /* Styling the social buttons. */
 .social-button {
+    /* Centering and ajusting size of button. */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
     width: 75%;
+    
+    /* Glassmorphism */
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -50,9 +54,12 @@
     -webkit-backdrop-filter: blur(1px);
     border: 1px solid rgba(255, 255, 255, 0.25);
     transition: 0.25s;
+    
+    /* Styling the font of the social buttons. */
     font-family: 'Inter', sans-serif;
     font-size: x-large;
     text-align: center;
+    color:aliceblue;
 }
 
 .social-button:hover {
